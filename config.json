@@ -1,0 +1,36 @@
+{
+    "Discord": {
+        "token": "Discord Token from https://discordapp.com/developers/applications",
+        "serverID": "Discord Server ID",
+        "prefix": "-",
+        "cmd_whitelist": [
+            "YOUR DISCORD ID"
+        ],
+        "embed_colour": "8ff2a3",
+        "Claims_change_to_ping": 25
+    },
+    "Bot": {
+        "email": "ALT EMAIL",
+        "password": "ALT PASSWORD",
+        "console_serverChat": false
+    },
+    "Config": {
+        "claims_channel": "CHANNEL ID",
+        "balance_change_channel": "CHANNEL ID",
+        "fbalance_change_channel": "CHANNEL ID",
+        "fonline_channel": "CHANNEL ID",
+        "tracked_factions": [],
+        "serverIP": "pvp.thearchon.net",
+        "port": 25565,
+        "version": "1.8.9",
+        "hub_cmd": "/onyx",
+        "balance": "Balance of {ign}: ${bal}",
+        "FList": "{fac} - {online}/{maxonline} online | Power {land} / {power} / {maxpower}",
+        "FBalance": "{fac}'s balance is {bal}.",
+        "fonline_stop_arg": "Members offline (",
+        "balance_cmd": "/bal {ign}",
+        "fbalance_cmd": "/f money balance {fac}",
+        "flist_cmd": "/f list {page}",
+        "fwho_cmd": "/f who {fac}"
+    }
+}
